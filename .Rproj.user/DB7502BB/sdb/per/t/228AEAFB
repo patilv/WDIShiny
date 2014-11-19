@@ -1,0 +1,16 @@
+{
+    "contents" : "---\nlayout: post\ntitle: \"Mortality Rate of Children Under 5 and Gender Differences\"\ndescription: \"interactive Anscombe's\"\ntags: [R, rMaps, India]\ncomments: true\nshare: true\n---\nThis post displays two animated choropleths. One for global mortality rates for children under 5 (per 1000 live births) and the second for the difference in global mortality rates for males and female children under 5 (per 1000).\n\nThis was put together after my wife sent a link to [this optimistic story on NPR's site.  It was regarding a reduction in mortality rates of children under 5](http://www.npr.org/blogs/goatsandsoda/2014/09/16/348991905/more-birthdays-for-kids-under-five-around-the-world) and it showed animated choropleths for three year's of data, 1972, 1992, and 2012.  I thought it was possible to have more information displayed in the animated choropleths than was made available using ```rMaps```. \n\n## Data\n\nData for different countries and variables were collected using the World Development Indicators (WDI) package, which accesses data provided by the World Bank. The R code for these can be found [on my github site.](https://github.com/patilv/Mortalityunder5)\n\n## Mortality rates for children under 5 (per 1000 live births): 1970 through 2013.\n\n1. Reduction in mortality rates are discernable.\n2. Regions where data were not available are in black.\n\n<style>\niframe[seamless]{\n    background-color: transparent;\n    border: 0px none transparent;\n    padding: 0px;\n    overflow: hidden;\n}\n</style>\n\n<iframe frameborder=\"0\" allowtransparency=\"true\" scrolling=\"no\" height=\"550\" width=\"100%\" src=\"http://bl.ocks.org/patilv/raw/410a1de459998f35599a/\"></iframe>\n\n\n## Mortality rate of females MINUS Mortality rate of males (Children under 5, per 1000, 1990 through 2013)\n\n1. Only India has a positive difference (more female children then male children) \n2. Regions where data were not available are in black. \n\n\n<iframe frameborder=\"0\" allowtransparency=\"true\" scrolling=\"no\" height=\"550\" width=\"100%\" src=\"http://bl.ocks.org/patilv/raw/a0311c4a4d8719d487f9/\"></iframe>\n",
+    "created" : 1410984128603.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2725035631",
+    "id" : "228AEAFB",
+    "lastKnownWriteTime" : 1410983907,
+    "path" : "~/GitHub/patilv.github.io/_posts/2014-9-17-MortalityUnder5.md",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "markdown"
+}

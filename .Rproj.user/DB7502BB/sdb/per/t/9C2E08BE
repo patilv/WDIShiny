@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1410978938479.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9C2E08BE",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "dfgender",
+        "contentUrl" : "content?title=dfgender&file=ab9574633b564dc4acf2f1c0e4e5da7b.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 6,
+        "totalObservations" : 11352,
+        "variables" : 6
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
